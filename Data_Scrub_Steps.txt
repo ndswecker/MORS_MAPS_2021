@@ -20,6 +20,8 @@ Step 2: Sort data by band size
 			288029933-942, Missing [943,944], 945, Missing[946], 947-964, Missing[965-967], 968-982, Presumed end.
 		1
 			281191223-225, Missing [226], 227, Missing[228,229], 230-243, Missing[244,245], 246-249, Presumed end.
+		1B
+			172176231-237, Missing[238,239], 240-250, Missing[251,252], 253-276, Presumed end.
 		1A
 			230196607-608, Missing[609], 610-614, Presumed end.
 		2
