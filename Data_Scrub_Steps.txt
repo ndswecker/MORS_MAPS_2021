@@ -27,3 +27,6 @@ Step 2: Sort data by band size
 		2
 			135291867-879, Presumed end.
 	
+Step 3: Sort by Species
+	3.1 Verify all Alpha codes correspond correctly with species names, and correct spellings
+	3.2 Look for any odd band sizes associated with each species
