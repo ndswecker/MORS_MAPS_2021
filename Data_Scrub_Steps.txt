@@ -1,35 +1,27 @@
-Step one: Combine data to one sheet
+Step 1: Combine data to one sheet
+	method used to combine sheets from: https://blog.coupler.io/combine-sheets-into-one/
+	={
+		FILTER( 'Period4' !A1:AP, LEN('Period4' !A1:A) > 0);
+		FILTER( 'Period5' !A2:AP, LEN('Period5' !A2:A) > 0);
+		FILTER( 'Period6' !A2:AP, LEN('Period6' !A2:A) > 0);
+		FILTER( 'Period7' !A2:AP, LEN('Period7' !A2:A) > 0);
+		FILTER( 'Period8' !A2:AP, LEN('Period8' !A2:A) > 0);
+		FILTER( 'Period9' !A2:AP, LEN('Period9' !A2:A) > 0);
+		FILTER( 'Period10' !A2:AP, LEN('Period10' !A2:A) > 0)
+	}
 
-https://blog.coupler.io/combine-sheets-into-one/
-
-={
-	FILTER( 'Period4' !A1:AP, LEN('Period4' !A1:A) > 0);
-	FILTER( 'Period5' !A2:AP, LEN('Period5' !A2:A) > 0);
-	FILTER( 'Period6' !A2:AP, LEN('Period6' !A2:A) > 0);
-	FILTER( 'Period7' !A2:AP, LEN('Period7' !A2:A) > 0);
-	FILTER( 'Period8' !A2:AP, LEN('Period8' !A2:A) > 0);
-	FILTER( 'Period9' !A2:AP, LEN('Period9' !A2:A) > 0);
-	FILTER( 'Period10' !A2:AP, LEN('Period10' !A2:A) > 0)
-}
-
-={
-FILTER( 'Period4' !A1:AP, LEN('Period4' !A1:A) > 0);
-FILTER( 'Period5' !A2:AP, LEN('Period5' !A2:A) > 0);
-FILTER( 'Period6' !A2:AP, LEN('Period6' !A2:A) > 0);
-FILTER( 'Period7' !A2:AP, LEN('Period7' !A2:A) > 0);
-FILTER( 'Period8' !A2:AP, LEN('Period8' !A2:A) > 0);
-FILTER( 'Period9' !A2:AP, LEN('Period9' !A2:A) > 0);
-FILTER( 'Period10' !A2:AP, LEN('Period10' !A2:A) > 0)
-}
-
-Step two: Sort data by band size
-	Verify all new bands have a band size. ALL ROWS HAVE A CODE AND A BAND SIZE.
-	Verify that all rows Code correctly corresponds to Band size. ALL CODES CORRESPOND TO BAND SIZE
-	Verify and identify all missing bands
+Step 2: Sort data by band size
+	2.1 Verify all new bands have a band size. ALL ROWS HAVE A CODE AND A BAND SIZE.
+	2.2 Verify that all rows Code correctly corresponds to Band size. ALL CODES CORRESPOND TO BAND SIZE
+	2.3 Verify and identify all missing bands Sort by Band Size -> Band Number
 		0A
-		0
+			290077827-835, Missing[836], 837-848, Missing[849-852], 853, Presumed end.
+		0 
+			288029933-942, Missing [943,944], 945, Missing[946], 947-964, Missing[965-967], 968-982, Presumed end.
 		1
+			281191223-225, Missing [226], 227, Missing[228,229], 230-243, Missing[244,245], 246-249, Presumed end.
 		1A
+			230196607-608, Missing[609], 610-614, Presumed end.
 		2
-		
+			135291867-879, Presumed end.
 	
