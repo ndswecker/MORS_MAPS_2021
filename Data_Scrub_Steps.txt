@@ -1,0 +1,26 @@
+Step one: Combine data to one sheet
+
+https://blog.coupler.io/combine-sheets-into-one/
+
+={
+	FILTER( 'Period4' !A1:AP, LEN('Period4' !A1:A) > 0);
+	FILTER( 'Period5' !A2:AP, LEN('Period5' !A2:A) > 0);
+	FILTER( 'Period6' !A2:AP, LEN('Period6' !A2:A) > 0);
+	FILTER( 'Period7' !A2:AP, LEN('Period7' !A2:A) > 0);
+	FILTER( 'Period8' !A2:AP, LEN('Period8' !A2:A) > 0);
+	FILTER( 'Period9' !A2:AP, LEN('Period9' !A2:A) > 0);
+	FILTER( 'Period10' !A2:AP, LEN('Period10' !A2:A) > 0)
+}
+
+={
+FILTER( 'Period4' !A1:AP, LEN('Period4' !A1:A) > 0);
+FILTER( 'Period5' !A2:AP, LEN('Period5' !A2:A) > 0);
+FILTER( 'Period6' !A2:AP, LEN('Period6' !A2:A) > 0);
+FILTER( 'Period7' !A2:AP, LEN('Period7' !A2:A) > 0);
+FILTER( 'Period8' !A2:AP, LEN('Period8' !A2:A) > 0);
+FILTER( 'Period9' !A2:AP, LEN('Period9' !A2:A) > 0);
+FILTER( 'Period10' !A2:AP, LEN('Period10' !A2:A) > 0)
+}
+
+Step two: Sort data by band size
+	Verify all new bands have a band size.
