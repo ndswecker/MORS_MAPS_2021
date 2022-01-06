@@ -23,4 +23,13 @@ FILTER( 'Period10' !A2:AP, LEN('Period10' !A2:A) > 0)
 }
 
 Step two: Sort data by band size
-	Verify all new bands have a band size.
+	Verify all new bands have a band size. ALL ROWS HAVE A CODE AND A BAND SIZE.
+	Verify that all rows Code correctly corresponds to Band size. ALL CODES CORRESPOND TO BAND SIZE
+	Verify and identify all missing bands
+		0A
+		0
+		1
+		1A
+		2
+		
+	
