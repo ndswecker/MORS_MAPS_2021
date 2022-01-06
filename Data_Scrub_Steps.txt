@@ -30,3 +30,5 @@ Step 2: Sort data by band size
 Step 3: Sort by Species
 	3.1 Verify all Alpha codes correspond correctly with species names, and correct spellings
 	3.2 Look for any odd band sizes associated with each species
+		CBCH 281191247-78 are band 1 for some reason.
+		PUFI 172176256,71 are band 1B for some reason.
