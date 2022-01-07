@@ -32,3 +32,15 @@ Step 3: Sort by Species
 	3.2 Look for any odd band sizes associated with each species
 		CBCH 281191247-78 are band 1 for some reason.
 		PUFI 172176256,71 are band 1B for some reason.
+		
+Part 2 Remote repository download.
+	A. Download google sheet to remote repository.
+	B. Manage all data scrubbing from remote repository.
+	C. Make a new branch for each major step and push new branches to remote repository.
+	D. Push all previous changes to branch dev.
+	
+Step 4 Verify proper date, time, location, net values.
+	4.1 Make sure each capture has a valid date.
+	4.2 Make sure each capture has a valid time.
+	4.3 Make sure each capture has a valid net.
+	4.4 Make sure all captures are Station MORS.
