@@ -44,3 +44,28 @@ Step 4 Verify proper date, time, location, net values.
 	4.2 Make sure each capture has a valid time.
 	4.3 Make sure each capture has a valid net.
 	4.4 Make sure all captures are Station MORS.
+	
+SIDE STEP: Excel combine sheets
+from: https://www.extendoffice.com/documents/excel/3252-excel-merge-excel-files-same-header.html
+
+Sub Combine()
+'UpdateByKutools20151029
+    Dim i As Integer
+    Dim xTCount As Variant
+    Dim xWs As Worksheet
+    On Error Resume Next
+LInput:
+    xTCount = Application.InputBox("The number of title rows", "", "1")
+    If TypeName(xTCount) = "Boolean" Then Exit Sub
+    If Not IsNumeric(xTCount) Then
+        MsgBox "Only can enter number", , "Kutools for Excel"
+        GoTo LInput
+    End If
+    Set xWs = ActiveWorkbook.Worksheets.Add(Sheets(1))
+    xWs.Name = "CombinedInExcel"
+    Worksheets(2).Range("A1").EntireRow.Copy Destination:=xWs.Range("A1")
+    For i = 2 To Worksheets.Count
+        Worksheets(i).Range("A1").CurrentRegion.Offset(CInt(xTCount), 0).Copy _
+               Destination:=xWs.Cells(xWs.UsedRange.Cells(xWs.UsedRange.Count).Row + 1, 1)
+    Next
+End Sub
