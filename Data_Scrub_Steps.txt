@@ -64,7 +64,7 @@ LInput:
     Set xWs = ActiveWorkbook.Worksheets.Add(Sheets(1))
     xWs.Name = "CombinedInExcel"
     Worksheets(2).Range("A1").EntireRow.Copy Destination:=xWs.Range("A1")
-    For i = 2 To Worksheets.Count
+    For i = 3 To 9
         Worksheets(i).Range("A1").CurrentRegion.Offset(CInt(xTCount), 0).Copy _
                Destination:=xWs.Cells(xWs.UsedRange.Cells(xWs.UsedRange.Count).Row + 1, 1)
     Next
