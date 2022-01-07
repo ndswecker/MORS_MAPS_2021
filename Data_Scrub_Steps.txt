@@ -77,3 +77,4 @@ Step 5 Check Age to WRP for consistency
 	5.1 Make sure all Ages are within bounds
 	5.2 Make sure all WRP values are independently valid
 	5.3 Check to see if Age and WRP are a valid match
+	5.4 Check WRP to molt for consistency
