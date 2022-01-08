@@ -85,5 +85,8 @@ Step 6 Look for recapture inconsistencies.
 	6.3 weight consistencies
 	6.4 progression of molt and skull
 	6.5 Progression of BP & CP characteristics
+		288029958 BCCH HY appears to be undergoing symetric molt. Ecc? Fun!
+
+
 
 	
