@@ -77,3 +77,13 @@ Step 5 Check Age to WRP for consistency
 	5.1 Make sure all Ages are within bounds
 	5.2 Make sure all WRP values are independently valid
 	5.3 Check to see if Age and WRP are a valid match
+	5.4 Check WRP to molt for consistency
+
+Step 6 Look for recapture inconsistencies.
+	6.1 Sex, age & species consistencies
+	6.2 wing chord consistencies
+	6.3 weight consistencies
+	6.4 progression of molt and skull
+	6.5 Progression of BP & CP characteristics
+
+	
